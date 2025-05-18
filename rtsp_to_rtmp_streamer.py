@@ -171,10 +171,10 @@ def main():
     if not os.path.exists('cameras.csv'):
         logger.info("Creating cameras.csv file with sample data")
         sample_data = [
-            "camera_0001,rtsp://admin:netw9rknetw9rk@202.129.240.246:90,rtmp://34.41.186.208:1935/camera_0001/0001?username=wrakash&password=akash@1997",
-            "camera_0002,rtsp://admin:netw9rknetw9rk@202.129.240.246:91,rtmp://34.41.186.208:1935/camera_0002/0002?username=wrakash&password=akash@1997",
-            "camera_0003,rtsp://admin:netw9rknetw9rk@202.129.240.246:92,rtmp://34.41.186.208:1935/camera_0003/0003?username=wrakash&password=akash@1997",
-            "camera_0004,rtsp://admin:netw9rknetw9rk@202.129.240.246:93,rtmp://34.41.186.208:1935/camera_0004/0004?username=wrakash&password=akash@1997"
+            "camera_0005,rtsp://admin:netw9rknetw9rk@202.129.240.246:90,rtmp://34.41.186.208:1935/camera_0005/0005?username=wrakash&password=akash@1997",
+            "camera_0006,rtsp://admin:netw9rknetw9rk@202.129.240.246:91,rtmp://34.41.186.208:1935/camera_0006/0006?username=wrakash&password=akash@1997",
+            "camera_0007,rtsp://admin:netw9rknetw9rk@202.129.240.246:92,rtmp://34.41.186.208:1935/camera_0007/0007?username=wrakash&password=akash@1997",
+            "camera_0008,rtsp://admin:netw9rknetw9rk@202.129.240.246:93,rtmp://34.41.186.208:1935/camera_0008/0008?username=wrakash&password=akash@1997"
         ]
         with open('cameras.csv', 'w') as f:
             for line in sample_data:
